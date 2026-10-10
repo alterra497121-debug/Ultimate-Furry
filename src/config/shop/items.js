@@ -134,7 +134,19 @@ roleId: null,
             type: 'robbery_protection',
             protection: true
         }
-    }
+    },
+    {
+        id: 'long_dildo',
+        name: '🍆 1,43 meter long dildo',
+        price: 6900,
+        description: 'When inserted in any hole, increases gambling luck',
+        type: 'tool',
+        maxQuantity: 10,
+        effect: {
+            type: 'gamble_boost',
+            multiplier: 1.43,
+        }
+    }        
 ];
 
 export function getItemById(itemId) {
