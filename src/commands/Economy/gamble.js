@@ -95,7 +95,7 @@ cashChange = -betAmount;
 
                 resultEmbed = warningEmbed(
                     "💔 You Lost...",
-                    `The dice rolled against you. You lost your **$${betAmount.toLocaleString()}** bet.`,
+                    `The dice rolled against you. You lost your **$${betAmount.toLocaleString()}** bet you fucking loser.`,
                 );
             }
 
